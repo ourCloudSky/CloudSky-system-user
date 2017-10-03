@@ -6,7 +6,7 @@
   "role": "module",
   "envlua": "${!path(cloudsky.system.user)}/env.lua",
   "require": {
-    "cloudsky": ">=0.1.0"
+    "cloudsky": ">=0.1.0",
     "cloudsky.daemon": ">=0.1.0",
     "cloudsky.library.db": ">=0.1.0"
   },
