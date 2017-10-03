@@ -1,0 +1,25 @@
+{
+  "name": "cloudsky.system.user",
+  "displayname": "${!i18n('cloudsky.system.user.displayname')}",
+  "description": "${!i18n('cloudsky.system.user.description')}",
+  "author": "xtl<xtl@xtlsoft.top>",
+  "role": "module",
+  "envlua": "${!path(cloudsky.system.user)}/env.lua",
+  "require": {
+    "cloudsky": ">=0.1.0"
+    "cloudsky.daemon": ">=0.1.0",
+    "cloudsky.library.db": ">=0.1.0"
+  },
+  "addition": {
+    "system": true
+  },
+  "composer": {
+    "require": {
+      "j4mie/idiorm": ">=0.1.0"
+    }
+  },
+  "suggest": [
+    "cloudsky.system.user.cli",
+    "cloudsky.system.user.web"
+  ]
+}
